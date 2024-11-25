@@ -1,10 +1,8 @@
 import {
   defineConfig,
   presetAttributify,
-  presetIcons,
   presetTypography,
   presetUno,
-  presetWebFonts,
   presetWind,
   transformerDirectives,
   transformerVariantGroup,
@@ -24,16 +22,8 @@ export default defineConfig({
   presets: [
     presetUno(),
     presetAttributify(),
-    presetIcons(),
     presetWind(),
     presetTypography(),
-    presetWebFonts({
-      fonts: {
-        sans: 'Open Sans',
-        serif: 'DM Serif Display',
-        mono: 'DM Mono',
-      },
-    }),
   ],
   transformers: [
     transformerDirectives(),

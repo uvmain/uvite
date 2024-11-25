@@ -1,7 +1,8 @@
 {
   "version": "0.2",
   "ignorePaths": [
-    "./dist/**"
+    "./dist/**",
+    "node_modules"
   ],
   "dictionaryDefinitions": [],
   "dictionaries": [],
@@ -12,8 +13,9 @@
     "antfu",
     "Attributify",
     "pinia",
+    "primevue",
     "stroustrup",
-    "tsbuildinfo",
+    "Unfonts",
     "unplugin",
     "uvite"
   ],

@@ -1,18 +1,19 @@
-# gallery
+# uvite Vue3/Vite starter
 
-This template should help get you started developing with Vue 3 in Vite.
+## Features
+
+- 🎨 Utility CSS styling with [UnoCSS](https://unocss.dev/)
+- 🅰️ Use any Google font with [unplugin-fonts](https://github.com/cssninjaStudio/unplugin-fonts) - Default is Poppins
+- 📸 >200k Ready to use icons with [unplugin-icons](https://github.com/unplugin/unplugin-icons)
+- ⏩ Auto imports with [unplugin-auto-import](https://github.com/unplugin/unplugin-auto-import)
+- 🎨 UI Component suite from [PrimeVue](https://primevue.org/vite/)
+- 🧹 [ESLint](https://github.com/eslint/eslint)
+- ✏️ [CSpell](https://cspell.org/)
+- 📀 Docker configuration
 
 ## Recommended IDE Setup
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
 
 ## Project Setup
 
@@ -36,4 +37,13 @@ npm run build
 
 ```sh
 npm run lint
+```
+```sh
+npm run lint:fix
+```
+
+### Check spelling with [Cspell](https://cspell.org/)
+
+```sh
+npm run cspell
 ```
